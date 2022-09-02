@@ -28,3 +28,8 @@ def usuarios(nome_usuario):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+# Servidor do Heroku
+
+
