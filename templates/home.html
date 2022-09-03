@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-</head>
-<body>
-<a href="/contato">Contato</a>
-<a href="/">Home</a>
-<p>Primeiro Site em Python com Lira</p>
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+    {% include "header.html" %}
+    <h1>Flask é um pequeno framework web escrito em Python.</h1>
+    <img src="../static/flask-logo.png" alt="">
+    <div class="texto">
+        <p>É classificado como um microframework porque não requer ferramentas ou bibliotecas particulares,
+        mantendo um núcleo simples, porém, extensível.</p>
+    <p>Não possui camada de abstração de banco de dados, validação de
+        formulário ou quaisquer outros componentes onde bibliotecas de terceiros pré-existentes fornecem funções comuns.</p>
+    <p>No entanto, o Flask oferece suporte a extensões que podem adicionar recursos do aplicativo como se fossem
+        implementados no próprio Flask.</p>
+    <p>Existem extensões para mapeadores objeto-relacional, validação de formulário,
+        manipulação de upload, várias tecnologias de autenticação aberta e várias ferramentas comuns relacionadas
+        ao framework.</p>
+    </div>
+
+    </body>
 </html>

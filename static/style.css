@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #ccc;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #cdcbce;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.texto {
+    padding: 10px;
+}
